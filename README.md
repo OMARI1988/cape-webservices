@@ -44,6 +44,8 @@ After installing [docker](https://www.docker.com/community-edition), update and 
 
 `docker pull bloomsburyai/cape && docker run -ti -p 5050:5050 -p 5051:5051 bloomsburyai/cape`
  
+`http://localhost:5051` 
+ 
 This will launch both the backend and the frontend webservices, by default it will also create tunnels for both, outputting the public urls:
 
    * To use the frontend just browse to the given url, it will be something similar to :
